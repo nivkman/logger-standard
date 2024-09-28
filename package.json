@@ -1,7 +1,7 @@
 {
   "name": "logger-standard",
   "description": "A simple and flexible logging utility for Node.js applications. 🚀",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
@@ -12,7 +12,22 @@
     "type": "git",
     "url": "git+https://github.com/nivkman/node-logger.git"
   },
-  "keywords": [],
+  "keywords": [
+    "logger",
+    "logging",
+    "node",
+    "nodejs",
+    "console",
+    "debug",
+    "log",
+    "error",
+    "warn",
+    "info",
+    "utility",
+    "development",
+    "terminal",
+    "cli"
+  ],
   "author": "Niv Kaufman",
   "license": "ISC",
   "bugs": {

@@ -1,8 +1,8 @@
-```md
 # 📝 logger-standard
+
 A simple and flexible logging utility for Node.js applications. 🚀
 
-## 📦 Installation
+## 🛠️ Installation
 
 ```bash
 npm install logger-standard
@@ -29,7 +29,7 @@ logger.log('This is a regular log message');
 logger.info('Temperature reading', 'TEMP001');
 ```
 
-## 🛠️ API
+## 📚 API
 
 ### Constructor
 
@@ -51,7 +51,7 @@ All methods accept two parameters:
 - `message` (string): The message to log
 - `sensorId` (string, optional): An identifier for the source of the log
 
-## 📄 Output Format
+## 🖨️ Output Format
 
 The log output format is as follows:
 
@@ -68,7 +68,7 @@ This package relies on the following npm packages for colored console output:
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request. 👨‍💻👩‍💻
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 🐛 Issues
 
@@ -81,4 +81,3 @@ This project is licensed under the ISC License.
 ## 🏠 Repository
 
 [https://github.com/nivkman/logger-standard](https://github.com/nivkman/logger-standard)
-```
