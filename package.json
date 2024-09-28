@@ -1,0 +1,27 @@
+{
+  "name": "node-logger",
+  "description": "A simple and flexible logging utility for Node.js applications. 🚀",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nivkman/node-logger.git"
+  },
+  "keywords": [],
+  "author": "Niv Kaufman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nivkman/node-logger/issues"
+  },
+  "homepage": "https://github.com/nivkman/node-logger#readme",
+  "dependencies": {
+    "console-error": "^0.0.4",
+    "console-info": "^0.0.5",
+    "console-warn": "^0.0.4"
+  }
+}
