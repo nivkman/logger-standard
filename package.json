@@ -1,7 +1,7 @@
 {
   "name": "logger-standard",
   "description": "A simple and flexible logging utility for Node.js applications. 🚀",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
