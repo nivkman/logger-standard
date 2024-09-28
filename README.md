@@ -1,17 +1,17 @@
 ```md
-# 📝 node-logger
+# 📝 logger-standard
 A simple and flexible logging utility for Node.js applications. 🚀
 
 ## 📦 Installation
 
 ```bash
-npm install node-logger
+npm install logger-standard
 ```
 
 ## 🚀 Usage
 
 ```javascript
-import { Logger } from 'node-logger';
+import { Logger } from 'logger-standard';
 
 // Create a new logger instance
 const logger = new Logger({
@@ -72,7 +72,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. 👨‍�
 
 ## 🐛 Issues
 
-If you encounter any problems or have any questions, please open an issue in the [GitHub repository](https://github.com/nivkman/node-logger/issues).
+If you encounter any problems or have any questions, please open an issue in the [GitHub repository](https://github.com/nivkman/logger-standard/issues).
 
 ## 📜 License
 
@@ -80,5 +80,5 @@ This project is licensed under the ISC License.
 
 ## 🏠 Repository
 
-[https://github.com/nivkman/node-logger](https://github.com/nivkman/node-logger)
+[https://github.com/nivkman/logger-standard](https://github.com/nivkman/logger-standard)
 ```
