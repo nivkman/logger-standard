@@ -1,7 +1,7 @@
 {
   "name": "logger-standard",
-  "description": "A simple and flexible logging utility for Node.js applications. 🚀",
-  "version": "1.0.2",
+  "description": "A flexible and feature-rich logging utility for Node.js applications. 🚀",
+  "version": "2.0.0",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
@@ -26,7 +26,12 @@
     "utility",
     "development",
     "terminal",
-    "cli"
+    "cli",
+    "emoji",
+    "structured-logging",
+    "metrics",
+    "json-logging",
+    "log-levels"
   ],
   "author": "Niv Kaufman",
   "license": "ISC",
