@@ -1,44 +1,22 @@
 {
-  "name": "logger-standard",
-  "description": "A flexible and feature-rich logging utility for Node.js applications. 🚀",
+  "name": "@entergreat/logger-standard",
+  "description": "A flexible and feature-rich logging utility for Node.js applications",
   "version": "2.0.0",
   "main": "src/index.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js"
-  },
+  "files": ["src/"],
+  "publishConfig": { "access": "public" },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nivkman/node-logger.git"
+    "url": "https://github.com/entergreat/logger-standard.git"
   },
   "keywords": [
-    "logger",
-    "logging",
-    "node",
-    "nodejs",
-    "console",
-    "debug",
-    "log",
-    "error",
-    "warn",
-    "info",
-    "utility",
-    "development",
-    "terminal",
-    "cli",
-    "emoji",
-    "structured-logging",
-    "metrics",
-    "json-logging",
-    "log-levels"
+    "logger", "logging", "node", "structured-logging",
+    "metrics", "json-logging", "log-levels", "entergreat"
   ],
-  "author": "Niv Kaufman",
+  "author": "EnterGreat",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nivkman/node-logger/issues"
-  },
-  "homepage": "https://github.com/nivkman/node-logger#readme",
+  "engines": { "node": ">=18.0.0" },
   "dependencies": {
     "console-error": "^0.0.4",
     "console-info": "^0.0.5",

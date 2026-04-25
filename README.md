@@ -1,4 +1,4 @@
-# logger-standard 🚀
+# @entergreat/logger-standard 🚀
 
 A flexible and feature-rich logging utility for Node.js applications.
 
@@ -17,13 +17,13 @@ A flexible and feature-rich logging utility for Node.js applications.
 ## Installation
 
 ```bash
-npm install logger-standard
+npm install @entergreat/logger-standard
 ```
 
 ## Quick Start
 
 ```js
-import { Logger } from 'logger-standard';
+import { Logger } from '@entergreat/logger-standard';
 
 // Basic usage (no emojis, backward compatible)
 const logger = new Logger({ service: 'my-app' });
@@ -83,7 +83,7 @@ logger.metric(key, value, unit?)    // Metrics logging
 ### Basic Usage (No Emojis)
 
 ```js
-import { Logger } from 'logger-standard';
+import { Logger } from '@entergreat/logger-standard';
 
 const logger = new Logger({
   service: 'api',
@@ -103,7 +103,7 @@ logger.error('Database connection failed');
 ### With Emojis (Optional)
 
 ```js
-import { Logger } from 'logger-standard';
+import { Logger } from '@entergreat/logger-standard';
 
 const logger = new Logger({
   service: 'pipeline',
@@ -256,7 +256,7 @@ const enhancedLogger = new Logger({
 
 **Breaking changes**: None! All new features are optional.
 
-## Why logger-standard?
+## Why @entergreat/logger-standard?
 
 - ✅ **Zero dependencies** (except colored console packages)
 - ✅ **Lightweight** (~200 LOC)
@@ -275,4 +275,4 @@ Contributions, issues, and feature requests are welcome!
 
 ## Repository
 
-[https://github.com/nivkman/logger-standard](https://github.com/nivkman/logger-standard)
+[https://github.com/nivkman/@entergreat/logger-standard](https://github.com/nivkman/@entergreat/logger-standard)
